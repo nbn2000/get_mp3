@@ -18,7 +18,8 @@ export default async (req, res)=>{
         noCheckCertificates: true,
         noWarnings: true,
         preferFreeFormats: true,
-        // ffmpegLocation: "Path to ffmpeg",
+        ffmpegLocation:
+      "C:\\Users\\user\\Downloads\\ffmpeg-master-latest-win64-gpl-shared\\ffmpeg-master-latest-win64-gpl-shared\\bin\\ffmpeg.exe",
         addHeader: [
             'referer:youtube.com',
             'user-agent:googlebot'
